@@ -1,113 +1,25 @@
-.logoheader {
-    height: 40px;
-}
 .barraNav {
-    background-color: rgba(50, 184, 50, 0.582);
-    
-}
+  background-color: rgba(43, 187, 43, 0.582);
+  color: #eaeaf0; }
+
 .alinks {
-    list-style: none;
-    text-decoration: none;
-    color: white;
-    display: flex;
-    
-}
-.mainmain {
-    background-color: rgba(50, 184, 50, 0.582);
-    color: white;
-    display: flex;
-    
-    
-}
-.carouselExampleControls {
-    background-color: darkgreen;
-    margin-bottom: 200px;
-}
- 
+  text-decoration: none;
+  color: #eaeaf0; }
+
 .footer {
-    background-color: rgba(50, 184, 50, 0.582);
-}
-.navclass {
-    display: flex   ;
-    justify-content: center;
-}
-.margin {
-    display: flex;
-    align-content: flex-start;
-}
+  background-color: #18924f;
+  padding-left: 15%; }
 
-/*quienes somos*/
+.damevi {
+  height: 1fr; }
 
-.barraNav{
-    background-color: rgba(50, 184, 50, 0.582);
-}
-.mainsomos {
-    margin-top: 100px;
-
-    
-}
-/*que hacemos*/
-.textoque {
-    background-color:rgba(50, 184, 50, 0.582);
-    width: 100%;
-    margin-top: 50px;
-}
-
-
-/* noticias */
-
-.fondonoticias {
-    background-image: url(../imagen/damevida/hintersee-3601004_1920.jpg);
-}
-.fondotexto {
-    background-color: white;
-    opacity: 0.8;
-}
-.titulonoticia {
-    background-color: rgb(89, 160, 89);
-    
-}
-
-/*contacto*/
-.maincontacto {
-    background-color: rgb(89, 160, 89);
-   display: flex;
-   justify-content: center;
-}
-
-/* footer */
-.imgfooter {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-.afooter {
-    text-decoration: none;
-    list-style: none;
-    color: black;
-}
-.footerdisplay {
-    display: grid;
-    grid-template-areas: "instagram contacto copyrig";
-    grid-template-columns: 1fr 1fr 1fr; 
-    display: flex;
-    justify-content: center;
-    background-color: rgba(50, 184, 50, 0.582) ;
-    
-
-}
 .instagram {
-    grid-area: instagram;
-    margin-top: 10px;
-    
+  display: flex;
+  justify-content: space-between; }
 
-}
-.afooter {
-    grid-area: contacto;
+.textoindex {
+  background-color: rgba(43, 187, 43, 0.582);
+  color: #eaeaf0; }
 
-}
-.copyr {
-    grid-area: copyrig;
-    margin-top: 10px;
-}
+body {
+  background-image: url(../imagen/damevida/hintersee-3601004_1920.jpg); }
