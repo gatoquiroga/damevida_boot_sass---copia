@@ -1,9 +1,18 @@
 .barraNav {
     background-color: $colorsecundario;
     color: $colorletra;
+    border-radius: 15px;
+    height: 30px;
+    
     
 }
 .alinks {
     text-decoration: none;
     color : $colorletra;
+    border-color: black;
+    border-radius: 15px;
+}
+
+.margintop {
+    margin-top: 30px;
 }

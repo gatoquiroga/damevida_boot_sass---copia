@@ -10,3 +10,14 @@
     display: flex;
     justify-content: space-between;
 }
+
+.imgfooter {
+  display: flex;
+  justify-content: center;
+}
+
+.qhacemo {
+  background-color: map-get($mapacolor ,  $colorPrincipal);
+}
+
+

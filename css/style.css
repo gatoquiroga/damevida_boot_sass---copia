@@ -1,10 +1,17 @@
 .barraNav {
   background-color: rgba(43, 187, 43, 0.582);
-  color: #eaeaf0; }
+  color: #eaeaf0;
+  border-radius: 15px;
+  height: 30px; }
 
 .alinks {
   text-decoration: none;
-  color: #eaeaf0; }
+  color: #eaeaf0;
+  border-color: black;
+  border-radius: 15px; }
+
+.margintop {
+  margin-top: 30px; }
 
 .footer {
   background-color: #18924f;
@@ -17,9 +24,15 @@
   display: flex;
   justify-content: space-between; }
 
+.imgfooter {
+  display: flex;
+  justify-content: center; }
+
 .textoindex {
-  background-color: rgba(43, 187, 43, 0.582);
-  color: #eaeaf0; }
+  background-color: #18924f;
+  color: #eaeaf0;
+  border-radius: 30px;
+  border-color: black; }
 
 body {
   background-image: url(../imagen/damevida/hintersee-3601004_1920.jpg); }

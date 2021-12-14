@@ -1,6 +1,8 @@
 .textoindex {
-    background-color: rgba(43, 187, 43, 0.582);
+    background-color:$colorPrincipal;
     color: $colorletra;
+    border-radius: 30px;
+    border-color: black;
 }
 
 body {
