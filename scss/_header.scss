@@ -3,6 +3,9 @@
     color: $colorletra;
     border-radius: 15px;
     height: 30px;
+    display: grid;
+    
+    
     
     
 }
@@ -11,8 +14,11 @@
     color : $colorletra;
     border-color: black;
     border-radius: 15px;
+    margin-bottom: 30px;
+    
 }
 
 .margintop {
     margin-top: 30px;
+    margin-bottom: 30px;
 }

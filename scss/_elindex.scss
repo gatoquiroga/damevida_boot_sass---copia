@@ -3,8 +3,40 @@
     color: $colorletra;
     border-radius: 30px;
     border-color: black;
+    padding-top: 30px;
+
 }
 
 body {
     background-image: url(../imagen/damevida/hintersee-3601004_1920.jpg);
 }
+
+
+@media only screen and (min-width:320px)and (max-width:780px) {
+
+    body {
+        background-image: url(../imagen/damevida/hintersee-3601004_1920.jpg);
+    }
+    
+    .alinks {
+        font-size: 15px;
+    }
+
+    .contactop {
+        background-color: gray;
+        opacity: 50%;
+        border-radius: 5px;
+    }
+    .margintoper {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width:780px) and (max-width:1500px) {
+
+    body {
+        background-image: url(../imagen/damevida/hintersee-3601004_1920.jpg);
+    }
+    
+}
+

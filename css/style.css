@@ -2,16 +2,19 @@
   background-color: rgba(43, 187, 43, 0.582);
   color: #eaeaf0;
   border-radius: 15px;
-  height: 30px; }
+  height: 30px;
+  display: grid; }
 
 .alinks {
   text-decoration: none;
   color: #eaeaf0;
   border-color: black;
-  border-radius: 15px; }
+  border-radius: 15px;
+  margin-bottom: 30px; }
 
 .margintop {
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
 .footer {
   background-color: #18924f;
@@ -32,7 +35,24 @@
   background-color: #18924f;
   color: #eaeaf0;
   border-radius: 30px;
-  border-color: black; }
+  border-color: black;
+  padding-top: 30px; }
 
 body {
   background-image: url(../imagen/damevida/hintersee-3601004_1920.jpg); }
+
+@media only screen and (min-width: 320px) and (max-width: 780px) {
+  body {
+    background-image: url(../imagen/damevida/hintersee-3601004_1920.jpg); }
+  .alinks {
+    font-size: 15px; }
+  .contactop {
+    background-color: gray;
+    opacity: 50%;
+    border-radius: 5px; }
+  .margintoper {
+    margin-top: 40px; } }
+
+@media only screen and (min-width: 780px) and (max-width: 1500px) {
+  body {
+    background-image: url(../imagen/damevida/hintersee-3601004_1920.jpg); } }
