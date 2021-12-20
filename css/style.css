@@ -51,7 +51,10 @@ body {
     opacity: 50%;
     border-radius: 5px; }
   .margintoper {
-    margin-top: 40px; } }
+    margin-top: 40px; }
+  .imgfooter {
+    display: flex;
+    justify-content: center; } }
 
 @media only screen and (min-width: 780px) and (max-width: 1500px) {
   body {
